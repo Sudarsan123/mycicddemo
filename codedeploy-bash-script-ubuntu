@@ -37,3 +37,6 @@ sudo service codedeploy-agent status
 
 # If it’s not running, start it
 sudo service codedeploy-agent start
+
+# If it’s not installed, install it
+sudo yum install codedeploy-agent
